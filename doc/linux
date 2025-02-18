@@ -80,9 +80,9 @@ ncdu # gui disk analyzer
 # unmount then lock then proceed like usual
 # seem like yt is slow on firefox
 # the downloading on firefox would appear on the
-screen rather than the browser
+#screen rather than the browser
 # you have to hit apply when install or upgrade
-when using the software update
+#when using the software update
 # download xp drive from their site then use 
 # bash to install the .sh file
 # ip v6 fix to access steam
