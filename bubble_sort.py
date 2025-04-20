@@ -10,7 +10,7 @@ def bubble_sort(unsortList:list):
         for j in range(len(sorted_list)):
             if sorted_list[i] < sorted_list[j]:
                 sorted_list[i], sorted_list[j] = sorted_list[j], sorted_list[i]
-        
+
     return sorted_list
 
 def main():
@@ -18,7 +18,7 @@ def main():
     inputRange:int = int(input("How many numbers in the list: "))
     unsortedList:list = []
     for i in range(inputRange):
-        unsortedList.append(int(input(f"{i}: "))) # append works but not assigning values
+        unsortedList.append(int(input(f"No. 0{i+1}: "))) # append works but not assigning values
     print(bubble_sort(unsortedList))
     start_time = time.time()
     print("Process finished --- %s seconds ---" % (time.time() - start_time))
